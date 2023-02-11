@@ -468,9 +468,9 @@ button:focus {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #000000 !important;
-  border-color: #000000 !important;
+  color: #5b9909 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 
 .btn-primary:hover {
