@@ -11,6 +11,7 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
+  //need to fix resume
   "https://raw.githubusercontent.com/brodie2121/brodieportfolio/master/src/Assets/brodie_brock_resume1.pdf";
 
 function ResumeNew() {
