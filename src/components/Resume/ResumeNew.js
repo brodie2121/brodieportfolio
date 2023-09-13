@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/brodie_brock_resume1.pdf";
+import pdf from "../../Assets/../Assets/NickBrockResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   //need to fix resume
-  "https://raw.githubusercontent.com/brodie2121/brodieportfolio/master/src/Assets/brodie_brock_resume1.pdf";
+  "https://raw.githubusercontent.com/brodie2121/brodieportfolio/master/src/Assets/NickBrockResume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
