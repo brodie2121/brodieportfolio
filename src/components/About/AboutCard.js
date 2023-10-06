@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             Hi Everyone, I am Brodie Brock from Nashville, Tennessee. I am a
             juinor at Western Kentucky University, and I am pursuing a degree in
             Computer Information Technology.
