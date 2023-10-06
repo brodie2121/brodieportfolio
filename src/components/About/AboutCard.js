@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,28 +7,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
-            Hi Everyone, I am Brodie Brock from Nashville, Tennessee. I am a
-            juinor at Western Kentucky University, and I am pursuing a degree in
-            Computer Information Technology.
+            Greetings, everyone! I'm Brodie Brock, hailing from the vibrant city
+            of Nashville, Tennessee. Currently, I'm a junior student at Western
+            Kentucky University, passionately pursuing a degree in Computer
+            Information Technology.
             <br />
             <br />
             Additionally, I am currently employed as an assistant
             Superintendent.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            In addition to coding, I thoroughly enjoy indulging in activities
+            such as golfing, hunting, and embarking on adventures with my
+            beloved wife!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Golfing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Hunting
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling with my wife
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>

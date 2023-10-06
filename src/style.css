@@ -402,7 +402,7 @@ button:focus {
 
 .about-activity {
   list-style: none !important;
-  text-align: left !important;
+  text-align: center;
   padding-left: 1px !important;
 }
 
