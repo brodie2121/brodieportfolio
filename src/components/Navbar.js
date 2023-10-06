@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logo.png";
+import { BiCodeAlt } from "react-icons/bi";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -34,7 +34,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <BiCodeAlt
+            style={{ height: "1.6em", width: "1.7em", padding: "0" }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
