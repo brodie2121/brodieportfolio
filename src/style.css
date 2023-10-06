@@ -53,7 +53,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(100, 210, 113, 0.959);
+  background: rgba(105, 118, 107, 0.707);
   border-radius: 12px;
 }
 
@@ -135,7 +135,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #afc9b2a8 !important;
+    background-color: #afc9b2da !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
