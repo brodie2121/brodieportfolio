@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
+import guess from "../../Assets/Projects/guessingGame.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -42,11 +42,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={guess}
               isBlog={false}
-              title="Yardboys"
-              description="YardBoys is a web application to give golf course superintendents the ability to create and manage daily job boards. The superintendent is able to create jobs for employees, record spray logs, and review historical job activity. The application has sign-up, login, and logout functionality, and is built using NodeJS, MySQL, and ReactJS."
-              ghLink="https://github.com/brodie2121/yardboys"
+              title="Guessing Game"
+              description="Guessing Game is a Java-based Android game crafted in Android Studio. I created this game for a project in one of my University classes. Users are welcome to select a number range to challenge their intuition. Then, they will have ten chances to guess the correct number. In the face of incorrect guesses, dynamic clues guide them, suggesting whether to ascend or descend in their quest for the correct number."
+              ghLink="https://github.com/brodie2121/GuessingGame"
               //demoLink=
             />
           </Col>
