@@ -17,8 +17,15 @@ function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Brodie Brock</strong>
+                <h2>
+                  <strong className="header-name">
+                    I am an Innovative full-stack developer who finds pleasure
+                    in acquiring proficiency in new languages and technologies
+                    as required.
+                  </strong>
+                </h2>
               </h1>
-              <div style={{ padding: 50, textAlign: "left" }}></div>
+              <div style={{ padding: 15, textAlign: "left" }}></div>
             </Col>
           </Row>
         </Container>
