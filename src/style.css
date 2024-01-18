@@ -231,17 +231,18 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 2.5em !important;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2em !important;
   padding-left: 45px !important;
+  text-align: center;
 }
 
 .main-name {
