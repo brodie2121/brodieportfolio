@@ -27,7 +27,7 @@ function About() {
                 paddingBottom: "20px",
               }}
             >
-              Know Who <strong className="green">I AM</strong>
+              Know Who <strong className="green">I am</strong>
             </h1>
             <Aboutcard />
           </Col>
