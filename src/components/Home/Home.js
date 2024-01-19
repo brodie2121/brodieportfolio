@@ -19,7 +19,7 @@ function Home() {
                 My name is
                 <strong className="main-name"> Brodie Brock</strong> and I am an
                 innovative full-stack developer who finds pleasure in acquiring
-                proficiency in new languages and technologies as required
+                proficiency in new languages and technologies as required.
               </h1>
               <div style={{ padding: 15, textAlign: "left" }}></div>
             </Col>
